@@ -1,17 +1,17 @@
 {
   "name": "@czillmann/react-draggable-tabs",
-  "version": "1.0.11-custom",
+  "version": "1.0.12-custom",
   "description": "Atom-like tabs for react",
   "main": "build/index.js",
   "repository": "https://github.com/ZaninAndrea/react-draggable-tabs",
   "peerDependencies": {
-    "react": "^16.1.1"
+    "react": "17.0.2"
   },
   "dependencies": {
-    "react": "^16.1.1",
+    "react": "17.0.2",
     "react-dnd": "9.3.4",
     "react-dnd-html5-backend": "^9.3.2",
-    "react-dom": "^16.1.1",
+    "react-dom": "17.0.2",
     "webpack": "^2.6.1"
   },
   "scripts": {
