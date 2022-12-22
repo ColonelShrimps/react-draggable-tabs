@@ -2,3 +2,4 @@ node_modules
 *.lock
 .idea
 example/index.bundle.js
+.npmrc

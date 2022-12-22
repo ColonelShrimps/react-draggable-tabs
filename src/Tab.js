@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { findDOMNode } from 'react-dom';
 import { DragSource, DropTarget } from 'react-dnd';
 import ItemTypes from './ItemTypes';
@@ -80,6 +79,7 @@ class Tab extends Component {
 
     return connectDragSource(connectDropTarget(
       <div className={this.props.active ? "react-tabs-tab react-tabs-active" : "react-tabs-tab"} onMouseUp={onClick}>
+          <div className="react-tabs-tab-move">×</div>
         <div className="react-tabs-tab-content" >{content}</div>
         <div className="react-tabs-tab-close" onMouseUp={onClose}>×</div>
     </div>,
