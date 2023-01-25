@@ -19,6 +19,7 @@ class Tabs extends Component {
                             content={tab.content}
                             moveTab={this.props.moveTab}
                             selectTab={this.props.selectTab}
+                            singleTab={tabs.length === 1}
                             closeTab={this.props.closeTab}
                             active={tab.active}
                         />
