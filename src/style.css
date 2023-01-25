@@ -37,8 +37,9 @@
     text-align: center;
     display: inline-block;
     width: calc(100% - 20px);
-    overflow: hidden;
-
+    text-overflow: ellipsis;
+    padding-right: 30px;
+    white-space: nowrap;
 }
 
 .react-tabs-tab-close{
