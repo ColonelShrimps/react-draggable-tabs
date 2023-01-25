@@ -1,6 +1,6 @@
 {
   "name": "@czillmann/react-draggable-tabs",
-  "version": "1.0.13-custom",
+  "version": "1.0.14-custom",
   "description": "Atom-like tabs for react",
   "main": "build/index.js",
   "repository": "https://github.com/ZaninAndrea/react-draggable-tabs",
